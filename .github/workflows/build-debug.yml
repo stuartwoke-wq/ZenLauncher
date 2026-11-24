@@ -1,7 +1,9 @@
 name: Build ZenLauncher Debug APK
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - feat/zenlauncher-identity
 
 permissions:
   contents: read
